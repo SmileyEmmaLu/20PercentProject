@@ -6,10 +6,15 @@ Everything out of the src is either gradle setup or part of the initial set up. 
 The file in the src is called **CalendarQuickStart.java**. Inside is the progress that I have made with the Google Calendar API. Anyone that pulls from this repository is able to have a set up code that they could make further developments on.
 
 ## Google Calendar Set Up:
+URL: https://developers.google.com/calendar/quickstart/java
+      
+      This is the link to the tutorial that helps you set up the inital set up for the Google Calendar API.
+**Notes:**
 
 
 ## Using Canvas API:
 URL: https://canvas.instructure.com/doc/api/courses.html
+   
    This is the link to the Canvas API page, this can act as a guide when implementing  
   
 **Postman:**
