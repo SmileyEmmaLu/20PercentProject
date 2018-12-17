@@ -8,9 +8,15 @@ The file in the src is called **CalendarQuickStart.java**. Inside is the progres
 ## Google Calendar Set Up:
 URL: https://developers.google.com/calendar/quickstart/java
       
-      This is the link to the tutorial that helps you set up the inital set up for the Google Calendar API.
+   This is the link to the tutorial that helps you set up the inital set up for the Google Calendar API.
 **Notes:**
+* When you are going through the steps form the tuortial, gradele set up requires Homebrew. This is the link to get [homebrew](https://docs.brew.sh/Installation)
+* You can upload the setup into InteliJ, and when you paste your starter code into a .java, gradle doesn't import any of the libriaries so many parts of your code will be red with errors. To fix this problem you will need to download the google-api-java-client folder online. You can find this folder simply by looking it up. The file actually has a lot of unnecessary files. The only folder you will need called **libs** 
+  ![image](files.png)
+* Go to **File** --> **Project Structure** in java and add libs into the libraries. 
+* This should get rid of most of the red imports, execpt for **.services**. In order to get rid of all of the red, you cand go into your `build.gradle` file and copy the following name under descrepencies. This is a link that you can use to download the library for [services](https://mvnrepository.com/artifact/com.google.apis/google-api-services-calendar/v3-rev305-1.23.0). 
 
+![images](services.png)
 
 ## Using Canvas API:
 URL: https://canvas.instructure.com/doc/api/courses.html
