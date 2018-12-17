@@ -17,9 +17,9 @@ URL: https://canvas.instructure.com/doc/api/courses.html
 **Steps:**
   1. Open Postman and create a Request by clicking the "New" tab in the uper left corner. Name your request "Create Calendar Event".
   2. Right under your "Creat Calendar Event", the default choice should be GET. Click the dropdown menu and change it to **POST**. 
-  3. In the "Enter request URL" field right next to POST, first paste https://kentdenver.instructure.com and then go to the Canvas API          link above and scrol down to **Create a calendar event** under **Calendar Events**. You will see **scope url**, copy and paste the        section after **POST|** on to the end of .com
+  3. In the "Enter request URL" field right next to POST, first paste https://kentdenver.instructure.com and then go to the Canvas API          link above and scrol down to **Create a calendar event** under **Calendar Events**. You will see **scope url**, copy and paste the        folowing section on to the end of .com
   
-  ![image](Screen Shot 2018-12-16 at 3.10.35 PM.png)
+  ![image](URL.png)
   
   4. Click the subtab "Authorization" and under "Type" choose "Bearer Token". You won't need to do anything with it becuase Postman will        automatically fill in the Authroization for you.
   5. Click on the **Header** subtab and under Key, type `Content_Type` and assign Values to `application/x-www-form-urlencoded`
